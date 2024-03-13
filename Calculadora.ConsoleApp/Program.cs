@@ -67,8 +67,7 @@ namespace Calculadora.ConsoleApp
                 Console.WriteLine("Tecle 'enter' para retornar ao menu");
 
                 Console.ReadKey();
-            }
-              Environment.Exit(0);
+            } 
         }
     }
 }
