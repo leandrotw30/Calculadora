@@ -10,7 +10,7 @@ namespace Calculadora.ConsoleApp
             {
                 Console.Clear();
 
-                Console.WriteLine("Calculadora Tabajara 2024");
+                Console.WriteLine("Calculadora Tabajara 2024\n");
                 Console.WriteLine("Digite 1 para Adicionar");
                 Console.WriteLine("Digite 2 para Subtrair");
                 Console.WriteLine("Digite 3 para Multiplicar");
@@ -53,7 +53,7 @@ namespace Calculadora.ConsoleApp
                 }
                 else if (operacao == "4")
                 {
-                    if (segundoNumero == 0)
+                    if (segundoNumero == 0) //pode ser utilizado o while
                     {
                         Console.WriteLine("Não é possível realizar a operação. Tente novamente");
                         Console.WriteLine("Tecle 'enter' para retornar ao menu");
